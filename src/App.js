@@ -7,6 +7,7 @@ import HeroSection from "./components/HeroSection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About/index.js";
+import Courses from "./components/Courses/Courses.js";
 
 
 import styled from "styled-components";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={<HeroSection />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/courses" element={<Courses />}></Route>
         </Routes>
         </Body>
          <Footer />

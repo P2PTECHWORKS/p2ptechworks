@@ -1,7 +1,7 @@
 import './Team.css'
 import Member1 from './images/Pavan.jpg';
 import Member2 from './images/Pramod.jpg';
-import Member3 from './images/Member3.png';
+import Member3 from './images/Charan.jpg';
 import Member4 from './images/Member2.jpg';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
