@@ -1,7 +1,104 @@
-1.INTRODUC - <iframe width="560" height="315" src="https://www.youtube.com/embed/MBlgaPguCaQ?si=s6Q8SniKm7SlV234" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+c : 
+   //1. title:Getting Started with C Programming,,ID:KnvbUiSxvbM,,desc :  Getting Started with C Programming | C Programming for Beginners 
+   //2. title:C Variables ,,ID:h4VBpylsjJc ,,desc:C Variables and Print Output | C Programming for Beginners
+   //3. title:Data Types in C Programming ,,ID:sARaqR0hRI4,,desc:Data Types in C Programming | C Programming for Beginners
+   //4. title:Take input in C ,,ID: 17gp5DJEyiw,,desc:Get User Input in C Programming
+   //5. title:Comments in C ,,ID:L2H2rtCLB-0,,desc: Comments in C Programing | C Programming for Beginners
+   //6. title:C Operators ,,ID:_57FcSBtJNU ,,desc:C Operators | C Programming for Beginners
+   //7. title:Type Conversion in C  ,,ID:xi2wf0Zy2Y4,,desc:Type Conversion in C | Implicit and Explicit Type Conversion
+   //8. title:Boolean and Comparison Operators ,,ID:TybmJxXRV80 ,,desc:Boolean and Comparison Operators in C Programming
 
-'<iframe width="560" height="315" src="https://www.youtube.com/embed/RLzC55ai0eo?si=bVv7I1FSwRKmq3vq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        '<iframe width="560" height="315" src="https://www.youtube.com/embed/epAFDEJImrU?si=RjkQxrycAHAshRQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        '<iframe width="560" height="315" src="https://www.youtube.com/embed/hoNb6HuNmU0?si=U8HiJKi_PYoLTiv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-
-        https://youtu.be/hoNb6HuNmU0
+   //9. 
+   {
+        title: 'If Else Statements in C Programming',
+        description: 'If Else Statements in C | C Programming for Beginners',
+        videoId: 'K8mntKyBJGc', // Replace with the actual YouTube video ID
+    },
+   //10. {
+        title: 'Ternary Operator in C Programming',
+        description: 'Ternary Operator in C | C Programming for Beginners',
+        videoId: '05xv2nMj6Ls', // Replace with the actual YouTube video ID
+    },
+   //11. 
+   {
+        title: 'Switch Statement in C Programming',
+        description: 'Switch Statement in C | C Programming for Beginners',
+        videoId: 'u6mb8NNwojA', // Replace with the actual YouTube video ID
+    },
+   //12. {
+        title: 'while Loop in C Programming',
+        description: 'while Loop in C Programming | C Programming for Beginners',
+        videoId: 'WgS_SF1VrEk', // Replace with the actual YouTube video ID
+    },
+   //13. 
+   {
+        title: 'for Loop in C Programming',
+        description: ' for Loop in C Programming | C Programming for Beginners',
+        videoId: 'Xtl1oGtcX-8', // Replace with the actual YouTube video ID
+    },
+   //14. 
+   {
+        title: 'break and continue in C | C Programming',
+        description: 'break and continue in C | C Programming for Beginners',
+        videoId: 'DpPf9XskST8', // Replace with the actual YouTube video ID
+    },
+   //15. 
+   {
+        title: 'C Functions',
+        description: 'C Functions | C Programming for Beginners',
+        videoId: 'Npo1u37lcg8', // Replace with the actual YouTube video ID
+    },
+   //16. 
+   {
+        title: 'C Variable Scope',
+        description: 'C Variable Scope | C Programming For Beginners',
+        videoId: 'ej-GOnj7mj0', // Replace with the actual YouTube video ID
+    },
+   //17. 
+   {
+        title: 'Standard Library Functions in C',
+        description: 'C Standard Library Functions | C Programming For Beginners',
+        videoId: 'OJvwk3pLK34', // Replace with the actual YouTube video ID
+    },
+    //18. 
+    {
+        title: 'Recursion in C',
+        description: 'C Recursion | C Programming For Beginners',
+        videoId: '61T0cZ8KyGM', // Replace with the actual YouTube video ID
+    },
+    //19. 
+    {
+        title: 'Arrays in C',
+        description: 'C Arrays | C Programming For Beginners',
+        videoId: 'MOeGnamlUP4', // Replace with the actual YouTube video ID
+    },
+    //20. 
+    {
+        title: 'Multidimensional Arrays in C',
+        description: ' C Multidimensional Arrays | C Programming For Beginners',
+        videoId: 'ATA6dYDz954', // Replace with the actual YouTube video ID
+    },
+    //21. 
+    {
+        title: 'Strings in C',
+        description: 'C Strings | C Programming For Beginners',
+        videoId: 'l7zI3nswO1g', // Replace with the actual YouTube video ID
+    },
+    //22. 
+    {
+        title: 'String Functions in C',
+        description: 'C String Functions | C Programming For Beginners',
+        videoId: 'XdnmsKUvGsc', // Replace with the actual YouTube video ID
+    },
+    //23. 
+    {
+        title: 'Pointers in C',
+        description: 'C Pointers | C Programming For Beginners',
+        videoId: 'KGhacRRMnDw', // Replace with the actual YouTube video ID
+    },
+    24. 
+    {
+        title: 'Similar Video 1',
+        description: 'Description for Similar Video 1',
+        videoId: 'LscgaBzlGdE', // Replace with the actual YouTube video ID
+    },

@@ -7,7 +7,12 @@ import HeroSection from "./components/HeroSection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About/index.js";
-import Courses from "./components/Courses/Courses.js";
+import C from "./components/Courses/c/C.js";
+import Python from "./components/Blog/Python/Python.js";
+import Java from "./components/Blog/Java/Java.js";
+import C from "./components/Blog/C/C.js";
+import Dsa from "./components/Blog/DSA/Dsa.js";
+import Dbms from "./components/Blog/DBMS/Dbms.js";
 
 
 import styled from "styled-components";
@@ -39,7 +44,7 @@ function App() {
           <Route path="/" element={<HeroSection />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about" element={<About />}></Route>
-          <Route path="/courses" element={<Courses />}></Route>
+          <Route path="/courses" element={<C />}></Route>
         </Routes>
         </Body>
          <Footer />
