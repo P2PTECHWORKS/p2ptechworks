@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Python = () => {
+const python = () => {
   return (
-    <div>Python</div>
+    <div>python</div>
   )
 }
 
-export default Python
+export default python

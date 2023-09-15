@@ -123,6 +123,42 @@ class Course extends React.Component {
                     description: 'C Programming',
                     videoId: 'KGhacRRMnDw', // Replace with the actual YouTube video ID
                 },
+                {
+                    title: 'Pointers and Arrays in C',
+                    description: 'C Programming',
+                    videoId: 'LscgaBzlGdE', // Replace with the actual YouTube video ID
+                },
+                {
+                    title: 'Pointers and Functions in C',
+                    description: 'C Programming',
+                    videoId: 'JYHpD9huNR4', // Replace with the actual YouTube video ID
+                },
+                {
+                    title: 'Struct in C',
+                    description: 'C Programming',
+                    videoId: 'gt9YPl6O9ZM', // Replace with the actual YouTube video ID
+                },
+                {
+                    title: 'Enumerations(enums) in C',
+                    description: 'C Programming',
+                    videoId: '-N212LgGqik', // Replace with the actual YouTube video ID
+                },
+                {
+                    title: 'Dynamic Memory Allocation in C',
+                    description: 'C Programming',
+                    videoId: 'Dn87Bna23TQ', // Replace with the actual YouTube video ID
+                },
+                {
+                    title: 'File Handling in C',
+                    description: 'C Programming',
+                    videoId: 'MQIF-WMUOL8', // Replace with the actual YouTube video ID
+                },
+                {
+                    title: 'Preprocesor and Macros in C',
+                    description: 'C Programming',
+                    videoId: 'cmGq62c1Ceg', // Replace with the actual YouTube video ID
+                },
+                
 
             ],
         };
