@@ -23,6 +23,12 @@
     list-style-type: none;
     padding: 0;
   }
+  .playlist::-webkit-scrollbar-track{
+    background-color: transparent;
+  }
+  .playlist::-webkit-scrollbar-thumb{
+    background-color: transparent;
+  }
   
   .playlist li {
     cursor: pointer;

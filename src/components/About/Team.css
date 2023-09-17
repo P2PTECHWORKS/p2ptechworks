@@ -8,6 +8,7 @@
     padding: 40px 0;
     height: max-content;
     background-color: #fff;
+    
     transition: all 1s;
     display: flex;
     flex-direction: column;
@@ -17,10 +18,24 @@
     cursor: pointer;
     margin-left: 5%;
 }
+.Dot {
+    height: 10px;
+    width: 10px;
+    background-color: #280266;
+    border-radius: 50%;
+    display: inline-block;
+  }
 .members{
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
     /* flex-wrap: wrap; */
+}
+.members::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.members::-webkit-scrollbar-thumb{
+    background-color: transparent;
 }
 
 #model3 .member::after
@@ -54,6 +69,18 @@
     border-radius: 50%;
    
     transition: all 1s;
+}
+.ButtonStyle{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background: linear-gradient(45deg, #ff8a00, #e52e71);
+    color: white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 #model3 .description h1

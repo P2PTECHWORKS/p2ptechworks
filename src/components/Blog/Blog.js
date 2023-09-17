@@ -17,8 +17,8 @@ const Blog = () => {
                 <div class="logoimage">
                     <img src={Image1} alt="Image1"/>
                 </div>
-                <div class="title">PYTHON</div>
-                <div class="description">Python is a high-level, general-purpose programming language. It is dynamically typed and garbage-collected. Python supports multiple programming paradigms, including structured, object-oriented and functional programming.</div>
+                <div class="btitle">PYTHON</div>
+                <div class="bdescription">Python is a high-level, general-purpose programming language. It is dynamically typed and garbage-collected. Python supports multiple programming paradigms, including structured, object-oriented and functional programming.</div>
                 <div class="stats">
                   <div class="one">
                     <div class="stat">20</div>
@@ -41,8 +41,8 @@ const Blog = () => {
               <div class="logoimage">
                   <img src={Image2} alt="Image2"/>
               </div>
-              <div class="title">JAVA</div>
-              <div class="description"></div>
+              <div class="btitle">JAVA</div>
+              <div class="bdescription"></div>
               <div class="stats">
                 <div class="one">
                   <div class="stat">20</div>
@@ -65,8 +65,8 @@ const Blog = () => {
               <div class="logoimage">
                 <img src={Image3} alt="Image3"/>
               </div>
-              <div class="title">C</div>
-              <div class="description"></div>
+              <div class="btitle">C</div>
+              <div class="bdescription"></div>
               <div class="stats">
                 <div class="one">
                   <div class="stat">20</div>
@@ -88,8 +88,8 @@ const Blog = () => {
               <div class="logoimage">
                 <img src={Image4} alt="Image4"/>
               </div>
-              <div class="title">DSA</div>
-              <div class="description"></div>
+              <div class="btitle">DSA</div>
+              <div class="bdescription"></div>
               <div class="stats">
                 <div class="one">
                   <div class="stat">20</div>
@@ -111,8 +111,8 @@ const Blog = () => {
               <div class="logoimage">
                 <img src={Image5} alt="Image5"/>
               </div>
-              <div class="title">DBMS</div>
-              <div class="description"></div>
+              <div class="btitle">DBMS</div>
+              <div class="bdescription"></div>
               <div class="stats">
                 <div class="one">
                   <div class="stat">20</div>
