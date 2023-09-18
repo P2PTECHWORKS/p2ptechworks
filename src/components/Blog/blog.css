@@ -42,13 +42,13 @@
     
 }
 
-.title{
+.btitle{
     font-size: 1.5rem;
     font-weight: bold;
     margin: 5px;
 }
 
-.description {
+.bdescription {
     font-size: medium;
     justify-content: center;
     padding: 0px 15px;

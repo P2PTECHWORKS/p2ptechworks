@@ -14,7 +14,7 @@ import Dbms from "./components/Courses/dbms/Dbms.js";
 import Ds from "./components/Courses/ds/Ds.js";
 import Java from "./components/Courses/java/Java.js";
 import Python from "./components/Courses/python/Python.js";
-import Pythonb from "./components/Blog/Python/python.js";
+import Pythonb from "./components/Blog/Python/Python.js";
 import Javab from "./components/Blog/Java/Java.js";
 import Cb from "./components/Blog/C/C.js";
 import Dsab from "./components/Blog/DSA/Dsa.js";

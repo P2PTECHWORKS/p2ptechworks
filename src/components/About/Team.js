@@ -9,6 +9,10 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 import GitHUbIcon from '@mui/icons-material/GitHub';
 
 export default function Team() {
+  const handleClick = () => {
+    // Replace 'your-portfolio-website-url' with your actual portfolio website URL
+    window.location.href = 'https://your-portfolio-website-url';
+  };
   return (
     <div id='model3'>
         <div className="divider"></div> 
@@ -19,7 +23,16 @@ export default function Team() {
                 <h1>PAVAN KUMAR</h1>
                 <h2>FOUNDER</h2>
                 <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
+                <pre>
+                   <span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>GATE 2023</span><span style={{paddingLeft:'5px'}}>QUALIFIED</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>FULL STACK DEVELOPER</span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>SIH 2022</span><span style={{paddingLeft:'5px'}}>FINALIST</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>SOlVED 200+ DSA PROBLEMS</span>
+                   <br/><button className='ButtonStyle' onClick={handleClick}>
+      Visit My Portfolio
+    </button>
+                  
+                </pre>
                 </p>
                 <div className="social-media">
                   <InstagramIcon />
@@ -34,8 +47,16 @@ export default function Team() {
                 <h1>PRAMOD</h1>
                 <h2>CO-FOUNDER</h2>
                 <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
-                </p>
+                <pre>
+                   <span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>GATE 2023</span><span style={{paddingLeft:'5px'}}>QUALIFIED</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>FULL STACK DEVELOPER</span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>SIH 2022</span><span style={{paddingLeft:'5px'}}>FINALIST</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>SOlVED 200+ DSA PROBLEMS</span>
+                   <br/><button className='ButtonStyle' onClick={handleClick}>
+      Visit My Portfolio
+    </button>
+                  
+                </pre>                </p>
                 <div className="social-media">
                   <InstagramIcon />
                   <LinkedInIcon />
@@ -49,8 +70,16 @@ export default function Team() {
                 <h1>CHARANTEJ</h1>
                 <h2>CO-FOUNDER</h2>
                 <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
-                </p>
+                <pre>
+                   <span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>GATE 2023</span><span style={{paddingLeft:'5px'}}>QUALIFIED</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>FULL STACK DEVELOPER</span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>SIH 2022</span><span style={{paddingLeft:'5px'}}>FINALIST</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>SOlVED 200+ DSA PROBLEMS</span>
+                   <br/><button className='ButtonStyle' onClick={handleClick}>
+      Visit My Portfolio
+    </button>
+                  
+                </pre>                </p>
                 <div className="social-media">
                   <InstagramIcon />
                   <LinkedInIcon />
@@ -64,8 +93,16 @@ export default function Team() {
                 <h1>CHANUKYA</h1>
                 <h2>CO-FOUNDER</h2>
                 <p>
-                Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet consectet.
-                </p>
+                <pre>
+                   <span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>GATE 2023</span><span style={{paddingLeft:'5px'}}>QUALIFIED</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>FULL STACK DEVELOPER</span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}><span style={{color:'#f404a8'}}>SIH 2022</span><span style={{paddingLeft:'5px'}}>FINALIST</span></span>
+                   <br/><span className='Dot'></span><span style={{paddingLeft:'10px'}}>SOlVED 200+ DSA PROBLEMS</span>
+                   <br/><button className='ButtonStyle' onClick={handleClick}>
+      Visit My Portfolio
+    </button>
+                  
+                </pre>                </p>
                 <div className="social-media">
                   <InstagramIcon />
                   <LinkedInIcon />
