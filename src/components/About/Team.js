@@ -17,6 +17,7 @@ export default function Team() {
     <div id='model3'>
         <div className="divider"></div> 
         <div className="members">
+          <div className='group1'>
           <div className="member">
             <img width={200} height={200} src={Member1}/>
             <div className="description">
@@ -64,6 +65,8 @@ export default function Team() {
                 </div>
             </div>
           </div>
+          </div>
+          <div className='group1'>
           <div className="member">
             <img width={200} height={200} src={Member3}/>
             <div className="description">
@@ -109,6 +112,7 @@ export default function Team() {
                   <PinterestIcon />
                 </div>
             </div>
+          </div>
           </div>
         </div>
     </div>

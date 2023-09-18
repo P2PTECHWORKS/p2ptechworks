@@ -1,6 +1,7 @@
 import React from 'react';
 import './Index.css';
 
+
 class Course extends React.Component {
     constructor(props) {
         super(props);

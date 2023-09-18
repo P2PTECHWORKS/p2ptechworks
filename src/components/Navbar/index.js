@@ -25,7 +25,7 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
 
-          <Link to="/" style={{ textDecoration: "none" }}><NavLink>Home</NavLink></Link>
+          <Link to="/" style={{ textDecoration: "none" }}><NavLink><p className='rrrr'>Home</p></NavLink></Link>
 
           <Link to='/blog' style={{ textDecoration: "none" }}><NavLink>Blog</NavLink></Link>
           <Link to='/p2p' style={{ textDecoration: "none" }}><NavLink>p2p</NavLink></Link>

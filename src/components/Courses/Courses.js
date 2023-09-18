@@ -1,5 +1,4 @@
 import React from 'react'
-import Course from './index'
 import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
 import C from './c/C';
 import Dbms from './dbms/Dbms';
