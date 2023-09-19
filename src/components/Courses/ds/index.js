@@ -6,32 +6,219 @@ class Source extends React.Component {
         super(props);
 
         this.state = {
-            selectedVideo: '<iframe width="560" height="315" src="https://www.youtube.com/embed/hoNb6HuNmU0?si=r9Qi8w5dN0jsBNI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>', // Initialize with no selected video
+            selectedVideo: '<iframe width="1002" height="400" src="https://www.youtube.com/embed/Db9ZYbJONHc" title="Introduction to Data Structures through C | Data Structures Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>', // Initialize with no selected video
             similarVideos: [
                 {
-                    title: 'Similar Video 1',
-                    description: 'Description for Similar Video 1',
-                    videoId: '-t5b7MrWENk', // Replace with the actual YouTube video ID
+                    title: 'Introduction to Data Structures through C | DSA ',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'Db9ZYbJONHc', // Replace with the actual YouTube video ID
                 },
                 {
-                    title: 'Similar Video 2',
-                    description: 'Description for Similar Video 2',
-                    videoId: 'nGeHstBtoH0', // Replace with the actual YouTube video ID
+                    title: 'Stack in Data Structure | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'BrVZZZkkGGI', // Replace with the actual YouTube video ID
                 },
                 {
-                    title: 'Similar Video 3',
-                    description: 'Description for Similar Video 3',
-                    videoId: '_xuI60USDjw', // Replace with the actual YouTube video ID
+                    title: 'Creation of Stack in DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'Y1vSGA0jm5E', // Replace with the actual YouTube video ID
                 },
                 {
-                    title: 'Similar Video 3',
-                    description: 'Description for Similar Video 3',
-                    videoId: '_xuI60USDjw', // Replace with the actual YouTube video ID
+                    title: 'Program to Implement all the Stack Operations using Static Array | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'UYBYifvCey0', // Replace with the actual YouTube video ID
                 },
                 {
-                    title: 'Similar Video 3',
-                    description: 'Description for Similar Video 3',
-                    videoId: '_xuI60USDjw', // Replace with the actual YouTube video ID
+                    title: 'Stack Implementation using JAVA | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'ugTUvNhHd9c', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Linked List using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'eGnlKPCkAFY', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Single Linked List Operations | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'o1QaGUEi6ew', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Single Linked List Length | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'ZhC1soR0zno', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Program for Implementation of Single Linked List (Part-1) | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'roei8Vd5814', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Program for Implementation of Single Linked List Part-2 | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'N_7lm7BBTpY', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Deleting a node in Linked list | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'qIjIwHiwkBg', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Insertion of Node in Single Linked List | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'e7xUBwxOzpk', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Queue | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'gnYM_G1ILm0', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Stack Using Single Linked List (Part 1) | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'OkkMub7pPBI', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Stack Using Single Linked List (Part 2) | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'aSnOCwWl56o', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Node swap in Single Linked List | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'FuiT4Ghjyn0', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'How to Perform Operations on Queue | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'EXsR7HXlGLw', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Single Linked List Implementation | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'aPDSSycB0OQ', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Double Linked List in Data Structures and Algorithms (Part-1)| DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'aTVSEEQXs-Y', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Double Linked List in Data Structures and Algorithms (Part-2)| DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'mCTSzm1YcfM', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Double Linked List in Data Structures and Algorithms (Part-3) | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: '7CbmGKk6gsE', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Bubble Sort Algorithm using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: '8Ug-a3IhUaE', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Reverse Singly Linked List using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'dR7v1sVX428', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Circular Queue using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'Ig34WPrgofI', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Operations on Circular Queue | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: '9nEcSGdX5vY', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Binary Search Tree using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'jBDc4Uuif28', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Insertion of Element into BST - Binary Search Tree | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'bCtmP8pSBF4', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Deletion Operation on Binary Search Tree using C (Part-1) | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'fEb__4Te_gk', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Deletion Operation on Binary Search Tree (Part-2) | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'dOFN0dMyE_s', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Deletion of a Node in BST - Node having 2 Children using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'lsGRy7DUcNU', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Display Elements in BST using C | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'c4eOz3fndiM', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'In-order Traversal in BST | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'dDjQphXcISc', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'AVL Tree L L Rotation | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: '8liDGiih4KM', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'L L Rotation | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: '82Qz3aNyZ4w', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Infix to Postfix Conversions | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'sw05hkrlJmE', // Replace with the actual YouTube video ID
+        
+                },
+                {
+                    title: 'Infix to Prefix Conversions | DSA',
+                    description: 'Data Structures and Algorithms',
+                    videoId: 'p4pPawXDh0U', // Replace with the actual YouTube video ID
+        
                 },
             ],
         };
