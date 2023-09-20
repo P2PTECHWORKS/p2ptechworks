@@ -19,6 +19,7 @@ import Javab from "./components/Blog/Java/Java.js";
 import Cb from "./components/Blog/C/C.js";
 import Dsab from "./components/Blog/DSA/Dsa.js";
 import Dbmsb from "./components/Blog/DBMS/Dbms.js";
+import P2P from "./components/p2p/p2p.js";
 
 import styled from "styled-components";
 
@@ -61,7 +62,7 @@ function App() {
           <Route path="/courses/c" element={<C />}></Route>
           <Route path="/courses/dsa" element={<Ds />}></Route>
           <Route path="/courses/dbms" element={<Dbms />}></Route>
-
+          <Route path="/p2p" element={<P2P />}></Route>
         </Routes>
         </Body>
          <Footer />

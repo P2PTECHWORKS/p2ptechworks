@@ -43,9 +43,10 @@
 }
 
 .btitle{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     margin: 5px;
+    color: #5303af;
 }
 
 .bdescription {
