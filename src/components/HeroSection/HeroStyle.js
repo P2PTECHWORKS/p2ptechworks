@@ -209,3 +209,31 @@ export const ResumeButton = styled.a`
     } 
 
 `;
+
+//about us
+
+
+export const BodyContainer = styled.div`
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 5% 20%;
+`;
+export const BodyTitle = styled.div`
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+`;
+export const BodyContent = styled.div``;
+
+export const ReadMore = styled.div`
+    display:flex;
+    justify-content: center;
+
+`;
+
+// Videosection
+
+export const VideoContainer = styled.div`
+  @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Philosopher:ital@1&display=swap');
+`;

@@ -3,7 +3,7 @@ import { darkTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HeroSection from "./components/HeroSection";
+import {HeroSection,  BodySection, VideoSection } from "./components/HeroSection";
 import Blog from "./components/Blog/Blog.js";
 import Courses from "./components/Courses/Courses.js";
 import Contact from "./components/Contact";
@@ -19,7 +19,7 @@ import Javab from "./components/Blog/Java/Java.js";
 import Cb from "./components/Blog/C/C.js";
 import Dsab from "./components/Blog/DSA/Dsa.js";
 import Dbmsb from "./components/Blog/DBMS/Dbms.js";
-
+import P2P from "./components/p2p/p2p.js";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -46,7 +46,16 @@ function App() {
          <Wrapper></Wrapper>
 
         <Routes>
-          <Route path="/" element={<HeroSection />}></Route>
+        <Route
+              path="/"
+              element={
+                <div>
+                  <HeroSection />
+                  <BodySection />
+                  <VideoSection />
+                </div>
+              }
+            />
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/courses" element={<Courses />}></Route>
@@ -61,7 +70,7 @@ function App() {
           <Route path="/courses/c" element={<C />}></Route>
           <Route path="/courses/dsa" element={<Ds />}></Route>
           <Route path="/courses/dbms" element={<Dbms />}></Route>
-
+          <Route path="/p2p" element={<P2P />}></Route>
         </Routes>
         </Body>
          <Footer />

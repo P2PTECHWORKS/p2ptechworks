@@ -18,7 +18,7 @@ const Blog = () => {
                     <img src={Image1} alt="Image1"/>
                 </div>
                 <div class="btitle">PYTHON</div>
-                <div class="bdescription">Python is a high-level, general-purpose programming language. It is dynamically typed and garbage-collected. Python supports multiple programming paradigms, including structured, object-oriented and functional programming.</div>
+                <div class="bdescription"></div>
                 <div class="stats">
                   <div class="one">
                     <div class="stat">20</div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const python = () => {
   return (
-    <div>python</div>
+    <div>python Programming</div>
   )
 }
 

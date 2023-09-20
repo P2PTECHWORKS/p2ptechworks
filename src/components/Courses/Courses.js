@@ -10,7 +10,7 @@ import Image2 from '../../images/java.png';
 import Image3 from '../../images/c.png';
 import Image4 from '../../images/dsa.png';
 import Image5 from '../../images/dbms.png';
-
+import '../Blog/blog.css';
 const Courses = () => {
   return (
     <div class="section"><h1>Courses</h1>
@@ -21,7 +21,7 @@ const Courses = () => {
                     <img src={Image1} alt="Image1"/>
                 </div>
                 <div class="title">PYTHON</div>
-                <div class="description">Python is a high-level, general-purpose programming language. It is dynamically typed and garbage-collected. Python supports multiple programming paradigms, including structured, object-oriented and functional programming.</div>
+                <div class="description"></div>
                 <div class="stats">
                   <div class="one">
                     <div class="stat">20</div>
