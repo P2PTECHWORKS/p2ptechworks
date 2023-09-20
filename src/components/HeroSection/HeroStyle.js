@@ -235,5 +235,5 @@ export const ReadMore = styled.div`
 // Videosection
 
 export const VideoContainer = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Philosopher:ital@1&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Philosopher:ital@1&display=swap');
 `;
