@@ -27,7 +27,7 @@
   },
 
   "scripts": {
-    "prebuild": "npx browserslist@latest --update-db",
+    "prebuild": "npx update-browserslist-db@latest",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
