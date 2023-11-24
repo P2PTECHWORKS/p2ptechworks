@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link, Route, BrowserRouter as Router } from 'react-router-dom';
-import C from './c/C';
-import Dbms from './dbms/Dbms';
-import Ds from './ds/Ds';
-import Java from './java/Java';
-import Python from './python/Python';
+import { Link} from 'react-router-dom';
+// import C from './c/C';
+// import Dbms from './dbms/Dbms';
+// import Ds from './ds/Ds';
+// import Java from './java/Java';
+// import Python from './python/Python';
 import Image1 from '../../images/python.png';
 import Image2 from '../../images/java.png';
 import Image3 from '../../images/c.png';
