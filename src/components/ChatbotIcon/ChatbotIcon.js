@@ -29,7 +29,7 @@ const ChatbotIcon = () => {
     const userMessage = { text: input, user: 'user' };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     
-    const backendURL = 'https://booming-premise-406113.el.r.appspot.com/';
+    const backendURL = 'https://app1-406115.de.r.appspot.com';
 
 
     try {
