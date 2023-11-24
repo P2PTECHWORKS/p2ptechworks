@@ -4,7 +4,7 @@ import Logo from '../../images/p2p.png';
 import { FaBars } from 'react-icons/fa';
 // import { Bio } from '../../data/constants';
 import { Link } from 'react-router-dom';
-import { useTheme } from 'styled-components';
+// import { useTheme } from 'styled-components';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
