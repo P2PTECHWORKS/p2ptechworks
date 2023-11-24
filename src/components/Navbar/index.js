@@ -13,7 +13,7 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a href="#" style={{ display: "flex", alignItems: "center", color: "black", marginBottom: '20', cursor: 'pointer' }}>
+          <a href="/" style={{ display: "flex", alignItems: "center", color: "black", marginBottom: '20', cursor: 'pointer' }}>
             <img src={Logo} alt="" style={{ size: "2rem", height: "70px" }} /> <p style={{ fontFamily: 'Calistoga,cursive', color: '#7E77c3', fontSize: '3vw', marginLeft: '15px' }}>P<span style={{ fontFamily: 'Calistoga,cursive', color: 'black' }}>2</span>P</p>  <p style={{ fontFamily: 'El Messiri, sans-serif', fontWeight: 700, marginRight: '10px', marginLeft: '10px', color: '#3473c8', fontSize: '2.6vw', paddingTop: '3%' }}>TECH</p>
             <p style={{ fontFamily: 'El Messiri, sans-serif', fontWeight: 700, fontSize: '2.6vw', paddingTop: '3%' }}>W<span style={{ fontFamily: 'El Messiri, sans-serif', fontWeight: 700, color: '#3473c8' }}>O</span>RKS</p>
           </a>
