@@ -28,25 +28,25 @@ const BodySection = () => {
                 <BodyTitle><h2>A Place That Helps Growth of Your Technical Skills</h2></BodyTitle>
                 <BodyContent><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo aliquam rem tempora incidunt repellendus alias tenetur maxime dicta harum sint?</p></BodyContent>
                 <ReadMore>
-                    <div className="container">
+<div className="container">
+    {/* 
+    <a href="" className="button">
+        <div className="button__line"></div>
+        <div className="button__line"></div>
+        <span className="button__text">READ MORE</span>
+        <div className="button__drow1"></div>
+        <div className="button__drow2"></div>
+    </a>
+    */}
+    <button className="button">
+        <div className="button__line"></div>
+        <div className="button__line"></div>
+        <span className="button__text">READ MORE</span>
+        <div className="button__drow1"></div>
+        <div className="button__drow2"></div>
+    </button>
+</div>
 
-                        // <a href="" className="button">
-                        //     <div className="button__line"></div>
-                        //     <div className="button__line"></div>
-                        //     <span className="button__text">READ MORE</span>
-                        //     <div className="button__drow1"></div>
-                        //     <div className="button__drow2"></div>
-                        // </a>
-                        <button className="button">
-    <div className="button__line"></div>
-    <div className="button__line"></div>
-    <span className="button__text">READ MORE</span>
-    <div className="button__drow1"></div>
-    <div className="button__drow2"></div>
-</button>
-
-
-                    </div>
                 </ReadMore>
             </BodyContainer>
         </div>
