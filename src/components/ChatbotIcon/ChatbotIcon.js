@@ -28,6 +28,7 @@ const ChatbotIcon = () => {
   const handleSendMessage = async () => {
     const userMessage = { text: input, user: 'user' };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
+    
     const backendURL = 'http://pavantech.pythonanywhere.com/';
 
 
