@@ -1,14 +1,14 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavLink, NavbarContainer, NavLogo, NavItems, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
 import Logo from '../../images/p2p.png';
 import { FaBars } from 'react-icons/fa';
-import { Bio } from '../../data/constants';
+// import { Bio } from '../../data/constants';
 import { Link } from 'react-router-dom';
 import { useTheme } from 'styled-components';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
-  const theme = useTheme()
+  // const theme = useTheme()
   return (
     <Nav>
       <NavbarContainer>
@@ -37,7 +37,7 @@ const Navbar = () => {
         {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
-            <MobileLink href="/" onClick={() => {
+            <MobileLink href="" onClick={() => {
               setIsOpen(!isOpen)
             }}>Home</MobileLink>
             <MobileLink href='/p2p' onClick={() => {
