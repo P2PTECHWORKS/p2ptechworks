@@ -30,7 +30,7 @@ const BodySection = () => {
                 <ReadMore>
                     <div className="container">
 
-                        <a href="#" className="button">
+                        <a href="" className="button">
                             <div className="button__line"></div>
                             <div className="button__line"></div>
                             <span className="button__text">READ MORE</span>
