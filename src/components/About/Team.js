@@ -19,7 +19,7 @@ export default function Team() {
         <div className="members">
           <div className='group1'>
           <div className="member">
-            <img width={200} height={200} src={Member1}/>
+            <img width={200} height={200} src={Member1} alt=""/>
             <div className="description">
                 <h1>PAVAN KUMAR</h1>
                 <h2>FOUNDER</h2>
@@ -43,7 +43,7 @@ export default function Team() {
             </div>
           </div>
           <div className="member">
-            <img width={200} height={200} src={Member2}/>
+            <img width={200} height={200} src={Member2}/ alt="">
             <div className="description">
                 <h1>PRAMOD</h1>
                 <h2>CO-FOUNDER</h2>
@@ -68,7 +68,7 @@ export default function Team() {
           </div>
           <div className='group1'>
           <div className="member">
-            <img width={200} height={200} src={Member3}/>
+            <img width={200} height={200} src={Member3} alt=""/>
             <div className="description">
                 <h1>CHARANTEJ</h1>
                 <h2>CO-FOUNDER</h2>
@@ -91,7 +91,7 @@ export default function Team() {
             </div>
           </div>
           <div className="member">
-            <img width={200} height={200} src={Member4}/>
+            <img width={200} height={200} src={Member4} alt=""/>
             <div className="description">
                 <h1>CHANUKYA</h1>
                 <h2>CO-FOUNDER</h2>
