@@ -1,13 +1,13 @@
 import { ThemeProvider } from "styled-components";
 import { darkTheme } from './utils/Themes.js'
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/index.js";
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {HeroSection,  BodySection, VideoSection } from "./components/HeroSection";
+import {HeroSection,  BodySection, VideoSection } from "./components/HeroSection/index.js";
 import Blog from "./components/Blog/Blog.js";
 import Courses from "./components/Courses/Courses.js";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Contact from "./components/Contact/index.js";
+import Footer from "./components/Footer/index.js";
 import About from "./components/About/index.js";
 import C from "./components/Courses/c/C.js";
 import Dbms from "./components/Courses/dbms/Dbms.js";
@@ -21,6 +21,8 @@ import Dsab from "./components/Blog/DSA/Dsa.js";
 import Dbmsb from "./components/Blog/DBMS/Dbms.js";
 import P2P from "./components/p2p/p2p.js";
 import styled from "styled-components";
+import ChatbotIcon from "./components/ChatbotIcon/ChatbotIcon.js";
+import React from 'react';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -75,6 +77,7 @@ function App() {
         </Body>
          <Footer />
       </Router>
+      <ChatbotIcon/>
     </ThemeProvider>
   );
 }
