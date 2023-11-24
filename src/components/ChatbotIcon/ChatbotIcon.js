@@ -29,7 +29,7 @@ const ChatbotIcon = () => {
     const userMessage = { text: input, user: 'user' };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     
-    const backendURL = 'http://127.0.0.1:5000';
+    const backendURL = 'http://192.168.1.5:5000';
 
 
     try {
