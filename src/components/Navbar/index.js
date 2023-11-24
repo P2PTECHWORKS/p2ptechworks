@@ -34,30 +34,46 @@ const Navbar = () => {
           <Link to='/contact' style={{ textDecoration: "none" }}><NavLink>Contact</NavLink></Link>
         </NavItems>
 
-        {
-          isOpen &&
-          <MobileMenu isOpen={isOpen}>
-            <MobileLink href="" onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Home</MobileLink>
-            <MobileLink href='/p2p' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>p2p</MobileLink>
-            <MobileLink href='/courses' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Courses</MobileLink>
-            <MobileLink href='/blog' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Blog</MobileLink>
-            <MobileLink href='/about' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>About</MobileLink>
-            <MobileLink href='/contact' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Contact</MobileLink>
+{/*// {
+        //   isOpen &&
+        //   <MobileMenu isOpen={isOpen}>
+        //     <MobileLink href="" onClick={() => {
+        //       setIsOpen(!isOpen)
+        //     }}>Home</MobileLink>
+        //     <MobileLink href='/p2p' onClick={() => {
+        //       setIsOpen(!isOpen)
+        //     }}>p2p</MobileLink>
+        //     <MobileLink href='/courses' onClick={() => {
+        //       setIsOpen(!isOpen)
+        //     }}>Courses</MobileLink>
+        //     <MobileLink href='/blog' onClick={() => {
+        //       setIsOpen(!isOpen)
+        //     }}>Blog</MobileLink>
+        //     <MobileLink href='/about' onClick={() => {
+        //       setIsOpen(!isOpen)
+        //     }}>About</MobileLink>
+        //     <MobileLink href='/contact' onClick={() => {
+        //       setIsOpen(!isOpen)
+        //     }}>Contact</MobileLink>
 
-          </MobileMenu>
-        }
+        //   </MobileMenu>
+        // }*/}
+// Existing code...
+
+{
+  isOpen &&
+  <MobileMenu isOpen={isOpen}>
+    <MobileLink onClick={() => { setIsOpen(!isOpen) }}>Home</MobileLink>
+    <MobileLink onClick={() => { setIsOpen(!isOpen) }}>p2p</MobileLink>
+    <MobileLink onClick={() => { setIsOpen(!isOpen) }}>Courses</MobileLink>
+    <MobileLink onClick={() => { setIsOpen(!isOpen) }}>Blog</MobileLink>
+    <MobileLink onClick={() => { setIsOpen(!isOpen) }}>About</MobileLink>
+    <MobileLink onClick={() => { setIsOpen(!isOpen) }}>Contact</MobileLink>
+  </MobileMenu>
+}
+
+// Existing code...
+
       </NavbarContainer>
     </Nav>
   )
