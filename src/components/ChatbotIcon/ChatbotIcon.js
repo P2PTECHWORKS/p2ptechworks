@@ -29,7 +29,7 @@ const ChatbotIcon = () => {
     const userMessage = { text: input, user: 'user' };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     
-    const backendURL = 'https://pavantech.pythonanywhere.com';
+    const backendURL = 'http://10.0.0.23:5002';
 
 
     try {
