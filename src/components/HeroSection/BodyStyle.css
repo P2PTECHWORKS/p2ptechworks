@@ -268,7 +268,7 @@
     width: 60%;
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
     margin-left: 30%;
     background-image: linear-gradient(-225deg, #DEAEDEC9 0%, #D7FFFE 100%);
     border-radius: 30px;
