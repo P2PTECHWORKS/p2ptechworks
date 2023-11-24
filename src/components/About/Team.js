@@ -43,7 +43,7 @@ export default function Team() {
             </div>
           </div>
           <div className="member">
-            <img width={200} height={200} src={Member2}/ alt="">
+            <img width={200} height={200} src={Member2} alt=""/>
             <div className="description">
                 <h1>PRAMOD</h1>
                 <h2>CO-FOUNDER</h2>
